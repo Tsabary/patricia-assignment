@@ -1,0 +1,18 @@
+.log-in {
+  &__form {
+    margin: auto;
+    width: max-content;
+    display: grid;
+    grid-gap: 5rem;
+  }
+
+  &__title {
+    text-align: center;
+    font-family: var(--font-main-bold);
+    font-size: 5rem;
+    color: var(--color-grey-dark);
+  }
+  &__button {
+    justify-self: center;
+  }
+}
